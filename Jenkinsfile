@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'echo "Hello World"'
-                sh 'echo $HOSTNAME'
+                sh 'pwd; echo; ip a'
                 sh '''
                     echo "Multiline shell steps works too"
                     ls -lah
