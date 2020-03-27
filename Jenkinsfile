@@ -10,6 +10,7 @@ pipeline {
                     ls -lah
                 '''
                 sh 'ls -lah ..'
+                sh 'ls -lah ..'
             }
         }
     }
